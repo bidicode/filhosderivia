@@ -1,0 +1,17 @@
+{
+  "name": "filhosderivia",
+  "version": "1.0.0",
+  "description": "Filhos de Rivia - Página Institucional",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
