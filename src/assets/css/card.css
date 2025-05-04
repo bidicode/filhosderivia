@@ -7,10 +7,16 @@
   padding: 8rem 0rem 5rem 0rem;
 }
 
-.card:hover {
-  transform: rotate(5deg);
+@media (hover: hover) {
+  .card:hover {
+    transform: rotate(5deg);
+  }
 }
-
+@media (hover: none) {
+  .card:active {
+    transform: rotate(5deg);
+  }
+}
 .card {
   background-color: #2e353d;
   box-shadow: 0.2rem 0.2rem 0.4rem 0.4rem rgba(145, 107, 55, 0.2);
