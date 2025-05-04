@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  background-color: #00001a;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.header h1 {
+  text-align: center;
+  color: #e6e600;
+  font-size: 5rem;
+}
+.header .header-image {
+  background-color: #a84343;
+  height: 6rem;
+  width: 6rem;
+}
+
+/*# sourceMappingURL=style.css.map */

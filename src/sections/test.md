@@ -1,5 +1,6 @@
 ---
 type: test
+fireflyQuantity: 30
 ---
 
 # Bem-vindo ao Filhos de Rívia

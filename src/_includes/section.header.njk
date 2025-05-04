@@ -1,6 +1,9 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'header' %}
-    {{ item.templateContent | safe }}
+    <div class="header">
+      <div class="header-image">Logo</div>
+      {{ item.templateContent | safe }}
+    </div>
   {% endif %}
 {% endfor %}
 

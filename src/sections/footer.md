@@ -4,4 +4,4 @@ type: footer
 
 # Footer test
 
-Testando a footer
+Criado com 🤍 por Bidicode

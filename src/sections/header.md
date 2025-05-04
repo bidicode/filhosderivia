@@ -2,6 +2,4 @@
 type: header
 ---
 
-# Header Test 1
-
-Testando a header
+# Colecionador, este será seu novo ponto de encontro de TCG em CANOAS
