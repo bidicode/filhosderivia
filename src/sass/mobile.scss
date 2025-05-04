@@ -1,6 +1,12 @@
 @media only screen and (max-width: 600px) {
-    .header .image {
-        width: 80%
+    .header {
+        h1 {
+            margin: 1.5rem
+        }
+
+        .image {
+           width: 80%
+       }
     }
 
     .card {
