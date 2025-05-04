@@ -1,0 +1,17 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'section-two' %}
+    <div class="card-section">
+      {% for card in item.data.cards %}
+        <div class="card">
+          <div class="title">
+            {{ card.title | safe }}
+          </div>
+          <img class="image" src="{{ card.image }}"/>
+          <div class="description">
+            {{ card.description | safe }}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}

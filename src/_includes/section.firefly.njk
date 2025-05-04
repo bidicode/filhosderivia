@@ -1,0 +1,9 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'firefly' %}
+    {% for i in range(1, item.data.quantity) %}
+      <div class="firefly"></div>
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+

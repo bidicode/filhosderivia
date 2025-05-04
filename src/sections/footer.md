@@ -2,6 +2,4 @@
 type: footer
 ---
 
-# Footer test
-
-Criado com 🤍 por Bidicode
+Criado com 🤍 por <a href="https://bidicode.com" target="_blank">Bidicode</a>
