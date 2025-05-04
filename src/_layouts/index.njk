@@ -6,15 +6,9 @@
   <link rel="stylesheet" href="{{ css }}">
 </head>
 <body class="fade-in">
-  <header>
-    <h1>{{ title }}</h1>
-  </header>
-  <main>
-    {{ content | safe }}
-  </main>
-  <footer>
-    <p>&copy; 2025 - Site feito com 11ty</p>
-  </footer>
+  {% include "section.header.njk" %}
+  {% include "section.test.njk" %}
+  {% include "section.footer.njk" %}
   <script src="assets/animar.js"></script>
 </body>
 </html>

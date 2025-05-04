@@ -7,6 +7,10 @@ export const config = {
   }
 };
 
-export default function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/assets");
+export default function(config) {
+  config.addPassthroughCopy("src/assets");
+
+  config.addCollection('sections', async (collection) => {
+    return collection.getFilteredByGlob('./src/sections/*.md')
+  });
 };

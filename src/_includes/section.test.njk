@@ -1,0 +1,7 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'test' %}
+    {{ item.templateContent | safe }}
+  {% endif %}
+{% endfor %}
+
+

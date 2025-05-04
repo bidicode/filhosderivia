@@ -1,0 +1,7 @@
+{% for item in collections.sections %}
+  {% if item.data.type === 'header' %}
+    {{ item.templateContent | safe }}
+  {% endif %}
+{% endfor %}
+
+
