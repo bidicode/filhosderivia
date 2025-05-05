@@ -2,6 +2,5 @@
 type: section-one
 ---
 
-# TCG Players e Gamers de Canoas e Região, venham nos conhecer!
-
+# Venha conhecer nossa loja!
 ## Fica apenas a duas quadras da estação Niterói, Canoas.

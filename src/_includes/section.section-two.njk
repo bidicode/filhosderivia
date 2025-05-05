@@ -1,5 +1,6 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'section-two' %}
+  {{ item.templateContent | safe }}
     <div class="card-section">
       {% for card in item.data.cards %}
         <div class="card">
@@ -7,6 +8,10 @@
             {{ card.title | safe }}
           </div>
           <img class="image" src="{{ card.image }}"/>
+          <div class="status">
+            <span>+ +</span>
+            {{ card.status | safe }}
+          </div>
           <div class="description">
             {{ card.description | safe }}
           </div>
