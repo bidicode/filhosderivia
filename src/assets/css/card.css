@@ -11,6 +11,9 @@
   .card:hover {
     transform: rotate(5deg);
   }
+  .card:nth-child(4n):hover {
+    transform: rotate(-5deg);
+  }
 }
 @media (hover: none) {
   .card:active {

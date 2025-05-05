@@ -1,0 +1,52 @@
+.card-section {
+    display: flex;
+    flex-direction: row;
+    row-gap: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 8rem 0rem 5rem 0rem;
+}
+
+@media (hover: hover) {
+    .card:hover {
+        transform: rotate(5deg);
+    }
+    .card:nth-child(4n):hover {
+        transform: rotate(-5deg);
+    }
+}
+    
+@media (hover: none) {
+    .card:active {
+        transform: rotate(5deg);
+    }
+}
+
+.card {
+    background-color: #2e353d;
+    box-shadow: 0.2rem 0.2rem 0.4rem 0.4rem rgba(145, 107, 55, 0.2);
+    border: 0.350rem solid #916B37;
+    border-radius: 0.350rem;
+    width: 20%;
+    z-index: 10000; //firefly overlap
+    transition: transform 0.5s ease;
+
+    .title {
+        font-size: 2.5rem;
+        font-weight: bold;
+        background-color: #141b25;
+        border-bottom: 0.150rem solid #916B37;
+        padding: 0.350rem;
+    }
+
+    .image {
+        padding: 1rem 0rem;
+    }
+        
+    .description {
+        border-top: 0.150rem solid #916B37;
+        padding: 2rem;
+        background-color: #141b25;
+        font-size: 1.5rem;
+    }
+}
