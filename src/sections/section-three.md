@@ -2,10 +2,7 @@
 type: section-three
 ---
 
-# Venha nos visitar
+# TCG Players e Gamers de Canoas e Região, venham nos conhecer!
 
-Nos acompanhe no instagram
-
-Entre em contato conosco via WhatsApp
-
-Ou, caso não seja de Canoas e Região e queira acessar nossos produtos, visite: www.filhosderivia.com.br
+### Carrossel
+Instagram, whatsapp e Maps

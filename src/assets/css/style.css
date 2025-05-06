@@ -1,6 +1,6 @@
 body {
   font-family: "KC Obra Letra", "Tagesschrift", sans-serif;
-  background-color: #141b25;
+  background-color: #2a374f;
   background-image: url(../images/personagens.png);
   background-size: contain;
   background-attachment: fixed;
@@ -37,11 +37,12 @@ body {
 }
 .header .image {
   padding-top: 3rem;
+  width: 40%;
 }
 
 h1 {
   text-align: center;
-  color: #916B37;
+  color: #c9a66b;
   font-size: 3rem;
   margin: 4rem;
 }

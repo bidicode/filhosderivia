@@ -12,4 +12,23 @@
     .card {
         width: 60%;
     }
+
+    .footer {
+        background-color: rgba(42, 55, 79, 0.7);
+
+        .content {
+            div {
+                width: 100%;
+    
+                &:first-child {
+                    order: 3;
+                    padding-top: 0.5rem;
+                }
+    
+                &:last-child {
+                    order: 4;
+                }
+            }
+        }
+    } 
 }

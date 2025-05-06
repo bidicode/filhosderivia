@@ -8,6 +8,19 @@
   .card {
     width: 60%;
   }
+  .footer {
+    background-color: rgba(42, 55, 79, 0.7);
+  }
+  .footer .content div {
+    width: 100%;
+  }
+  .footer .content div:first-child {
+    order: 3;
+    padding-top: 0.5rem;
+  }
+  .footer .content div:last-child {
+    order: 4;
+  }
 }
 
 /*# sourceMappingURL=mobile.css.map */

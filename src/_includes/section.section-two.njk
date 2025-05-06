@@ -9,8 +9,12 @@
           </div>
           <img class="image" src="{{ card.image }}"/>
           <div class="status">
-            <span>+ +</span>
-            {{ card.status | safe }}
+            <div>
+              <img src="{{ card.icon }}" />
+            </div>
+            <div class="status-text">
+              {{ card.status | safe }}
+            </div>
           </div>
           <div class="description">
             {{ card.description | safe }}
