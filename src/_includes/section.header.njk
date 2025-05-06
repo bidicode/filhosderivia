@@ -3,6 +3,7 @@
     <div class="header">
       <img class="image" src="assets/images/logo-transparente.png"/>
       {{ item.templateContent | safe }}
+      {% include "section.countdown.njk" %}
     </div>
   {% endif %}
 {% endfor %}
