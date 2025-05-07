@@ -4,5 +4,5 @@ type: section-three
 
 # TCG Players e Gamers de Canoas e Região, venham nos conhecer!
 
-### Carrossel
+## Onde você nos encontra
 Instagram, whatsapp e Maps

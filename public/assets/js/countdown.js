@@ -1,4 +1,4 @@
-var countDownDate = new Date("2025-06-01T13:00:00.000Z").getTime();
+var countDownDate = new Date("2025-05-31T13:00:00.000Z").getTime();
 // var countDownDate = new Date().getTime() + 3600 * 1000; // 1 hour from now
 
 var x = setInterval(function() {

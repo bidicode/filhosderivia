@@ -1,0 +1,22 @@
+#countdown-header {
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#countdown-value {
+    font-size: 2rem;
+    display: inline;
+    background-color: rgba(201, 166, 107, 0.3);
+    animation: showCountdown 4s ease-in;
+    border-radius: 0.650rem;
+    padding: 1rem;
+}
+
+@keyframes showCountdown {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
