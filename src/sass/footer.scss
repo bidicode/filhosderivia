@@ -13,14 +13,19 @@
 
         div {
             width: 20%;
+
+            .icon {
+                width: 5%;
+                vertical-align: middle;
+            }
         
             a {
                 text-decoration: none;
                 color: #ffffff !important;
             }
 
-            &:first-child {
-                padding-top: 0.350rem;
+            &:not(:last-child) {
+                padding-top: 0.150rem;
             }
         }
     }

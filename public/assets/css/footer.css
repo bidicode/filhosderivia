@@ -14,12 +14,16 @@
 .footer .content div {
   width: 20%;
 }
+.footer .content div .icon {
+  width: 5%;
+  vertical-align: middle;
+}
 .footer .content div a {
   text-decoration: none;
   color: #ffffff !important;
 }
-.footer .content div:first-child {
-  padding-top: 0.35rem;
+.footer .content div:not(:last-child) {
+  padding-top: 0.15rem;
 }
 
 /*# sourceMappingURL=footer.css.map */

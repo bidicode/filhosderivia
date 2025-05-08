@@ -16,6 +16,7 @@
     .footer .content {
         div {
             width: 50%;
+            padding-top: 0.2rem;
 
             &:first-child {
                 order: 3;
@@ -23,6 +24,10 @@
 
             &:last-child {
                 order: 4;
+            }
+
+            .icon {
+                width: 4%;
             }
         }
     }

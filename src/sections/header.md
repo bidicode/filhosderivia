@@ -2,4 +2,5 @@
 type: header
 ---
 
-# Colecionador, este será seu novo ponto de encontro em CANOAS
+# Colecionador
+# Este será seu novo ponto de encontro em CANOAS

@@ -44,7 +44,16 @@ h1 {
   text-align: center;
   color: #c9a66b;
   font-size: 3rem;
-  margin: 4rem;
+  margin: 1rem;
+  text-shadow: 2px 4px 10px #694915;
+}
+
+.section-one {
+  margin: 2rem;
+}
+.section-one h1 {
+  background-color: #694915;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
