@@ -1,5 +1,7 @@
+@use './theme.scss';
+
 body {
-  font-family: "KC Obra Letra", "Tagesschrift", sans-serif;
+  font-family: theme.$primary-font-family;
   background-color: #2a374f;
   background-image: url(../images/personagens.png);
   background-size: cover;
