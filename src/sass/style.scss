@@ -54,10 +54,16 @@ h1 {
 }
 
 .section-one {
-  margin: 2rem;
+  padding-top: 2rem;
 
-  h1 {
-    background-color: #694915;
-    padding: 1rem;
+  .banner-desktop {
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .banner-mobile {
+    display: none;
   }
 }
