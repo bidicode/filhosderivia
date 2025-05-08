@@ -1,4 +1,9 @@
 @media only screen and (max-width: 600px) {
+    body {
+        background-size: contain;
+    }
+
+
     h1 {
         font-size: 2.3rem;
     }
@@ -14,7 +19,7 @@
     }
 
     .card {
-        width: 80%;
+        width: 100%;
     }
 
     .contato {
