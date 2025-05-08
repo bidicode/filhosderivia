@@ -11,6 +11,18 @@
   .header .image {
     width: 80%;
   }
+  .section-one {
+    padding-top: 2rem;
+  }
+  .section-one .banner-desktop {
+    display: none;
+  }
+  .section-one .banner-mobile {
+    display: contents;
+  }
+  .section-one .banner-mobile img {
+    width: 80%;
+  }
   .card {
     width: 100%;
   }

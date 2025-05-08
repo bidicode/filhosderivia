@@ -49,11 +49,13 @@ h1 {
 }
 
 .section-one {
-  margin: 2rem;
+  padding-top: 2rem;
 }
-.section-one h1 {
-  background-color: #694915;
-  padding: 1rem;
+.section-one .banner-desktop img {
+  width: 90%;
+}
+.section-one .banner-mobile {
+  display: none;
 }
 
 /*# sourceMappingURL=style.css.map */

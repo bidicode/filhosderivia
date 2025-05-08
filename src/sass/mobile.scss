@@ -18,6 +18,22 @@
        }
     }
 
+    .section-one {
+        padding-top: 2rem;
+      
+        .banner-desktop {
+            display: none;
+        }
+        
+        .banner-mobile {
+            display: contents;
+            img {
+              width: 80%;
+            }
+          
+        }
+      }
+
     .card {
         width: 100%;
     }
