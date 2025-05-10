@@ -1,1 +1,0 @@
-console.log("Animação JS carregada com sucesso!");

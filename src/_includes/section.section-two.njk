@@ -1,26 +1,28 @@
 {% for item in collections.sections %}
   {% if item.data.type === 'section-two' %}
   {{ item.templateContent | safe }}
-    <div class="card-section">
-      {% for card in item.data.cards %}
-        <div class="card">
-          <div class="title">
-            {{ card.title | safe }}
-          </div>
-          <img class="image" src="{{ card.image }}"/>
-          <div class="status">
-            <div>
-              <img src="{{ card.icon }}" />
+    <div class="card-container">
+      <div class="card-section">
+        {% for card in item.data.cards %}
+          <div class="card">
+            <div class="title">
+              {{ card.title | safe }}
             </div>
-            <div class="status-text">
-              {{ card.status | safe }}
+            <img class="image" src="{{ card.image }}"/>
+            <div class="status">
+              <div>
+                <img src="{{ card.icon }}" />
+              </div>
+              <div class="status-text">
+                {{ card.status | safe }}
+              </div>
+            </div>
+            <div class="description">
+              {{ card.description | safe }}
             </div>
           </div>
-          <div class="description">
-            {{ card.description | safe }}
-          </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   {% endif %}
 {% endfor %}
