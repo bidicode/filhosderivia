@@ -8,6 +8,7 @@ export const config = {
 };
 
 export default function(config) {
+  config.setUseGitIgnore(false);
   config.addPassthroughCopy("src/assets");
 
   config.addCollection('sections', async (collection) => {
