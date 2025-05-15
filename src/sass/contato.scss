@@ -3,6 +3,40 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding: 2rem 0rem;
+}
+
+.maps-section {
+    box-shadow: 0.2rem 0.2rem 0.4rem 0.4rem rgba(145, 107, 55, 0.2);
+    border: 0.350rem solid #c9a66b;
+    background-color: #2a374f;
+    border-radius: 0.350rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 28%;
+
+    .status-contato {
+        font-size: 1.5rem;
+        text-align: end;
+        color: #c9a66b;
+        display: inline-flex;
+        justify-content: end;
+        column-gap: 0.65rem;
+        align-items: center;
+        width: 90%;
+        padding-top: 0.5rem;
+
+        img {
+            width: 10%;
+        }
+    }
+
+    .descricao-contato {
+        padding: 1rem 2rem;
+        background-color: #2a374f;
+        font-size: 1.3rem;
+    }
 }
 
 #eapps-instagram-feed > a{
@@ -11,13 +45,20 @@
 
 .text-map {
     font-size: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1rem 0rem 1rem 1rem;
+    border-bottom: 0.2rem solid #c9a66b;
+    text-align: start;
 }
 
 .maps {
     height: 100%;
     vertical-align: middle;
-    border: 0.350rem solid #c9a66b;
     border-radius: 0.350rem;
     z-index: 10000;
+    width: 100%;
+
+    iframe {
+        width: 100%;
+        border-bottom: 0.2rem solid #c9a66b;
+    }
 }

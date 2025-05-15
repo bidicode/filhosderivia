@@ -15,16 +15,9 @@
     margin: 2rem;
 }
 
-@media (hover: hover) {
-    .card:hover {
-        transform: rotate(5deg);
-    }
-}
-    
-@media (hover: none) {
-    .card:active {
-        transform: rotate(5deg);
-    }
+.card:hover,
+.card:active {
+    transform: rotate(5deg);
 }
 
 .card {

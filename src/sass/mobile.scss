@@ -39,11 +39,19 @@
     }
 
     .contato {
+        .maps-section {
+            width: 77%;
+        }
+
         .maps {
             vertical-align: middle;
-            width: 80%;
             padding-bottom: 2rem;
             display: contents;
+            
+            iframe {
+                width: 100% !important;
+                border-bottom: 0.2rem solid #c9a66b !important;
+            }
         }
 
         .maps iframe {
