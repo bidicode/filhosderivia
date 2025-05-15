@@ -54,7 +54,7 @@ h1 {
 }
 
 .section-one {
-  padding-top: 2rem;
+  margin: 4rem 0rem;
 
   .banner-desktop {
 
@@ -66,4 +66,8 @@ h1 {
   .banner-mobile {
     display: none;
   }
+}
+
+.section-three {
+ margin: 4rem 0rem;
 }
