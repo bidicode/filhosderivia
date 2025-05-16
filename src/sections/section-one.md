@@ -19,7 +19,12 @@ type: section-one
             </div>
             <div class="banner-column">
                 <div id="banner-cards">
-                    <img class="cards" src="assets/images/banner/cartas_venda.png"/>
+                    <div>
+                        <img class="banner-image-cards" src="assets/images/banner/carta-1.png" />
+                        <img class="banner-image-cards" src="assets/images/banner/carta-2.png" />
+                        <img class="banner-image-cards" src="assets/images/banner/carta-3.png" />
+                        <img class="banner-image-cards" src="assets/images/banner/carta-4.png" />
+                    </div>
                     <img class="logo" src="assets/images/banner/cavaleiro_negro_cropped.png" width="8%"/>
                 </div>
             </div>
@@ -46,7 +51,7 @@ type: section-one
                        <div>E muito mais...</div>
                     </div>
                 </div>
-                <div>Conhecer a loja virtual [button]</div>
+                <div><a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual</a></div>
             </div>
         </div>
     </div>
