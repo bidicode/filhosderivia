@@ -19,20 +19,35 @@
     }
 
     .section-one {
-        padding-top: 2rem;
-      
-        .banner-desktop {
-            display: none;
+        .banner-section {
+            row-gap: 1.5rem;
         }
-        
-        .banner-mobile {
-            display: contents;
-            img {
-              width: 80%;
+
+        .banner-column {
+            width: 100%;
+        }
+
+        #banner-cards {
+            div {
+                left: 8%;
             }
-          
         }
-      }
+
+        #banner-cards img.logo {
+            transform: none;
+            position: static;
+        }
+
+        #banner-cards div {
+            margin: 0rem;
+            position: static;
+            margin: 0rem 1rem;
+        }
+
+        .pokebola-row {
+            justify-content: center;
+        }
+    }
 
     .card {
         width: 100%;

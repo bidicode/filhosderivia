@@ -35,6 +35,7 @@
         color: rgb(45, 54, 80);
         padding: 1.2rem;
         border-radius: 0.3rem;
+        margin: 1.3rem 0rem;
     }
 
     a.banner-link-loja:hover,
@@ -49,6 +50,7 @@
 
     div {
         position: absolute;
+        color: #ffffff;
         top: 15%;
         left: 40%;
         z-index: 1;
@@ -114,15 +116,14 @@
 
     img.logo {
         position: absolute;
-        top: 91%;
+        top: 85%;
         left: 55%;
         z-index: 1;
-        transform: translate(-95%, -55%);
     }
 }
 
 .pokebola-row {
-    padding: 0.4rem 0;
+    padding: 0.7rem 0;
     display: flex;
     flex-direction: row;
 
