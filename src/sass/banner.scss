@@ -23,6 +23,12 @@
 .banner-column {
     width: calc(30% - 10px - 1px);
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+
+    &:nth-child(3) {
+        flex-wrap: wrap;
+    }
 }
 
 #liga-pokemon {
@@ -67,6 +73,7 @@
 
     img {
         margin-right: 0.5rem;
+        width: 5%;
     }
 
     img:hover {
