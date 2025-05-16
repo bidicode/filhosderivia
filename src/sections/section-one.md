@@ -20,12 +20,12 @@ type: section-one
             <div class="banner-column">
                 <div id="banner-cards">
                     <div>
-                        <img class="banner-image-cards" src="assets/images/banner/carta-1.png" />
+                        <img class="banner-image-cards img-reflex" src="assets/images/banner/carta-1.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-2.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-3.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-4.png" />
-                    </div>
-                    <img class="logo" src="assets/images/banner/cavaleiro_negro_cropped.png" width="8%"/>
+                        <img class="logo" src="assets/images/banner/cavaleiro_negro_cropped.png"/>
+                    </div>                    
                 </div>
             </div>
             <div class="banner-column">
@@ -51,7 +51,7 @@ type: section-one
                        <div>E muito mais...</div>
                     </div>
                 </div>
-                <div><a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual</a></div>
+                <a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual</a>
             </div>
         </div>
     </div>
