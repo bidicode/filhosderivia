@@ -45,7 +45,7 @@ type: section-one
                        <div>E muito mais...</div>
                     </div>
                     <div class="banner-link-loja-row">
-                        <img src="assets/images/banner/pikachu_escondido.png" />
+                        <img class="pikachu-image" src="assets/images/banner/pikachu_escondido.png" />
                         <a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual
                         </a>
                     </div>
