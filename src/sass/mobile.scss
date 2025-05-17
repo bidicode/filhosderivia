@@ -66,9 +66,16 @@
         width: 100%;
     }
 
+    .section-three {
+        margin: 0rem;
+    }
+
     .contato {
+        padding: 0rem;
+
         .maps-section {
             width: 77%;
+            margin-bottom: 1rem;
         }
 
         .maps {
@@ -90,8 +97,8 @@
             border: 0;
         }
 
-        div:nth-child(2) {
-            padding-top: 2rem;
+        .instagram-section {
+            width: 77%;
         }
     }
 
@@ -114,6 +121,10 @@
                 &:not(:last-child) {
                     padding-top: 0.55rem;
                 }
+            }
+
+            a {
+                padding-top: 0.3rem !important;
             }
         }
     } 
