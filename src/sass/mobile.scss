@@ -25,31 +25,37 @@
     .section-one {
         .banner-section {
             row-gap: 1.5rem;
+            width: 90%;
         }
 
         .banner-column {
             width: 100%;
-        }
+            justify-content: center;
 
-        #banner-cards {
-            div {
-                left: 8%;
+            #liga-pokemon {
+                margin-top: 2rem;
+                margin-left: -0.5rem;
+            }
+
+            .banner-link-loja-row {
+                width: 100%;
+            }
+
+            #pokebola-section {
+                width: 85%;
+
+                .pokebola-row {
+                    padding: 1rem 0rem 0.5rem 0rem;
+
+                    img {
+                        width: 10%;
+                    }
+                }
             }
         }
 
-        #banner-cards img.logo {
-            transform: none;
-            position: static;
-        }
-
-        #banner-cards div {
-            margin: 0rem;
-            position: static;
-            margin: 0rem 1rem;
-        }
-
-        .pokebola-row {
-            justify-content: center;
+        #banner-cards {
+            margin-left: -15rem;
         }
     }
 

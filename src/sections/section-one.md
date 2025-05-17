@@ -8,7 +8,7 @@ type: section-one
             <div class="banner-column">
                 <a href="https://filhosderivia.com.br/" id="liga-pokemon">
                     <div>Estamos também na</div>
-                    <img src="assets/images/banner/liga_pokemon_logo.png" width="90%"/>
+                    <img src="assets/images/banner/liga_pokemon_logo_oficial_branco.png" width="110%"/>
                 </a>
             </div>
             <div class="banner-column">
@@ -18,12 +18,12 @@ type: section-one
                         <img class="banner-image-cards" src="assets/images/banner/carta-2.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-3.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-4.png" />
-                        <img class="logo" src="assets/images/banner/cavaleiro_negro_cropped.png"/>
+                        <img class="logo" src="assets/images/cavaleiro_branco.png"/>
                     </div>                    
                 </div>
             </div>
             <div class="banner-column">
-                <div>
+                <div id="pokebola-section">
                     <div class="pokebola-row">
                        <img src="assets/images/banner/pokebola.png" />
                        <div>Cartas Avulsas</div>
@@ -44,7 +44,8 @@ type: section-one
                        <img src="assets/images/banner/pokebola.png" />
                        <div>E muito mais...</div>
                     </div>
-                    <div class="pokebola-row">
+                    <div class="banner-link-loja-row">
+                        <img src="assets/images/banner/pikachu_escondido.png" />
                         <a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual
                         </a>
                     </div>
