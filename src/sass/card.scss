@@ -50,18 +50,23 @@
         color: #c9a66b;
         display: inline-flex;
         justify-content: end;
-        column-gap: 0.650rem;
         align-items: center;
         width: 90%;
         padding-top: 0.5rem;
 
+        div:not(.status-text) {
+            width: 25%;
+            padding: 0.5rem 0.5rem 0rem 0rem;
+        }
+
         img {
-            width: 30%;
+            width: 40%;
         }
 
         .status-text {
             padding-top: 0.250rem;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
+            text-align: start;
         }
     }
         
