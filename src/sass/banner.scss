@@ -140,7 +140,7 @@
     }
 
     img:hover {
-        animation: glow-red 2s infinite ease-in-out;
+        animation: glow-gray 2s infinite ease-in-out;
         border-radius: 50%;
     }
 }
@@ -177,9 +177,9 @@
     }
 }
 
-@keyframes glow-red {
+@keyframes glow-gray {
   0% {
-    box-shadow: 0 0 5px rgba(43, 55, 79, 0.4),
+    box-shadow: 0 0 5px rgba(79, 50, 43, 0.4),
                 0 0 10px rgba(43, 55, 79, 0.3),
                 0 0 15px rgba(43, 55, 79, 0.2);
   }
