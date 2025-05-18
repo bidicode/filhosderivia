@@ -20,7 +20,7 @@ export default function(config) {
     const hash = new Date().getTime().toString();
     await minifyCSS(hash);
     await minifyJS(hash);
-    await updateImages(hash);
+    await updateImages('v1');
   });
 
   config.addCollection('sections', async (collection) => {
