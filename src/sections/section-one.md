@@ -8,7 +8,7 @@ type: section-one
             <div class="banner-column">
                 <a href="https://filhosderivia.com.br/" id="liga-pokemon">
                     <div>Estamos também na</div>
-                    <img src="assets/images/banner/liga_pokemon_logo_oficial_branco.png" width="110%"/>
+                    <img src="assets/images/banner/liga_pokemon_logo.png" width="110%"/>
                 </a>
             </div>
             <div class="banner-column">
@@ -18,7 +18,7 @@ type: section-one
                         <img class="banner-image-cards" src="assets/images/banner/carta-2.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-3.png" />
                         <img class="banner-image-cards" src="assets/images/banner/carta-4.png" />
-                        <img class="logo" src="assets/images/cavaleiro_branco.png"/>
+                        <img class="logo" src="assets/images/banner/cavaleiro_negro_cropped.png"/>
                     </div>                    
                 </div>
             </div>
