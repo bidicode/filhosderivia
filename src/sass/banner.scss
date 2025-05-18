@@ -15,9 +15,12 @@
     flex-wrap: wrap;
     width: 1200px;
     justify-content: space-around;
-    border-radius: 1rem;
-    color: white;
-    background-color: rgba(217, 143, 48, 0.392);
+    border-radius: 0.35rem;
+    color: #2b374f;
+    background: linear-gradient(45deg, #F6F6F6, #A8A8A8 40%, #CACACA 50%, #F6F6F6 75%, #CACACA);
+    border: 0.35rem solid #c9a66b;
+    background-size: 400% 400%;
+    animation: moveBackground 10s ease infinite;
     z-index: 10000; //firefly overlap
     font-family: theme.$secondary-font-family;
     font-size: 1.3rem;
@@ -42,7 +45,7 @@
 
     div {
         position: absolute;
-        color: #ffffff;
+        color: #2b374f;
         top: 15%;
         left: 40%;
         z-index: 1;
@@ -214,4 +217,10 @@
   60% { transform: translateX(-5px); }
   80% { transform: translateX(5px); }
   100% { transform: translateX(0); }
+}
+
+@keyframes moveBackground {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
