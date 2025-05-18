@@ -25,7 +25,7 @@
     .section-one {
         .banner-section {
             row-gap: 1.5rem;
-            width: 90%;
+            width: 80%;
         }
 
         .banner-column {
@@ -34,7 +34,10 @@
 
             #liga-pokemon {
                 margin-top: 2rem;
-                margin-left: -0.5rem;
+
+                img {
+                    width: 90%
+                }
             }
 
             .banner-link-loja-row {
@@ -59,6 +62,16 @@
 
         #banner-cards {
             margin-left: -15rem;
+
+            img.banner-image-cards {
+                width: calc(120px - 4.8vw);
+                height: calc(180px - 7.2vw);
+
+                &:nth-child(1) {
+                    left: 11%;
+                }
+
+            }
         }
     }
 
@@ -133,6 +146,18 @@
 // fixes para mobiles muito pequenos
 @media only screen and (max-width: 350px) {
     .section-one {
+        .banner-section {
+            min-width: 324px;
+        }
+
+        #liga-pokemon {
+           div {
+                font-size: 0.8rem;
+                top: 10%;
+                left: 40%;
+           }
+        }
+
         .pokebola-row {
             font-size: 1rem !important;
 
@@ -147,7 +172,7 @@
                 height: 108px;
 
                 &:nth-child(1) {
-                    left: 30%;
+                    left: 20%;
                 }
             
                 &:nth-child(2) {
@@ -161,12 +186,9 @@
                 }
             
                 &:nth-child(4) {
-                    left: 220%;
+                    left: 230%;
                 }
-
             }
         }
-
-
     }
 }

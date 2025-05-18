@@ -21,7 +21,18 @@
 
             #liga-pokemon {
                 margin-top: 2rem;
+                margin-bottom: 2rem;
                 margin-left: -0.5rem;
+
+                div {
+                    font-size: 1.4rem;
+                    top: 15%;
+                    left: 35%;
+                }
+
+                img {
+                    width: 60%
+                }
             }
 
             .banner-link-loja-row {
@@ -43,12 +54,44 @@
         }
 
         #banner-cards {
-            margin-left: -15rem;
+            margin-left: -20rem;
+
+            img.banner-image-cards {
+                width: calc(120px + 24px);
+                height: calc(180px + 36px);
+
+                &:nth-child(1) {
+                    left: 0%;
+                    top: 0%;
+                }
+            
+                &:nth-child(2) {
+                    left: 80%;
+                    top: -5%;
+                }
+
+                &:nth-child(3) {
+                    left: 150%;
+                    top: -5%;
+                }
+            
+                &:nth-child(4) {
+                    left: 230%;
+                    top: 0%;
+                }
+
+            }
+
+            img.logo {
+                top: 75%;
+                left: 200%;
+            }    
         }
     }
 
     .card {
         width: 35%;
+        min-width: 324px;
     }
 
     .contato {

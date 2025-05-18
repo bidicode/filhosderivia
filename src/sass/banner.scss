@@ -53,6 +53,10 @@
         font-size: 1.1rem;
         width: 100%;
     }
+
+    img {
+        width: 100%;
+    }
 }
 
 #banner-cards {
@@ -136,7 +140,7 @@
     }
 
     img:hover {
-        animation: glow-white 2s infinite ease-in-out;
+        animation: glow-red 2s infinite ease-in-out;
         border-radius: 50%;
     }
 }
@@ -173,22 +177,21 @@
     }
 }
 
-
-@keyframes glow-white {
+@keyframes glow-red {
   0% {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
-                0 0 10px rgba(255, 255, 255, 0.3),
-                0 0 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(43, 55, 79, 0.4),
+                0 0 10px rgba(43, 55, 79, 0.3),
+                0 0 15px rgba(43, 55, 79, 0.2);
   }
   50% {
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8),
-                0 0 30px rgba(255, 255, 255, 0.6),
-                0 0 45px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 0 15px rgba(43, 55, 79, 0.8),
+                0 0 30px rgba(43, 55, 79, 0.6),
+                0 0 45px rgba(43, 55, 79, 0.4);
   }
   100% {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4),
-                0 0 10px rgba(255, 255, 255, 0.3),
-                0 0 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(43, 55, 79, 0.4),
+                0 0 10px rgba(43, 55, 79, 0.3),
+                0 0 15px rgba(43, 55, 79, 0.2);
   }
 }
 

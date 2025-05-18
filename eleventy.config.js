@@ -11,16 +11,32 @@ export const config = {
 };
 
 export default function(config) {
-  config.addTransform("htmlMinifier", htmlMinifier);
+  const isProduction = process.env.NODE_ENV === "production";
+  if (isProduction) {
+    console.log("🔧 Modo produção: habilitando otimizações...");
+  } else {
+    console.log("💻 Modo desenvolvimento: build mais rápido e limpo.");
+  }
+
+  if (isProduction) {
+    config.addTransform("htmlMinifier", htmlMinifier);
+  }
   config.setUseGitIgnore(false);
   config.addPassthroughCopy("src/assets/images");
   config.addPassthroughCopy("src/assets/fonts");
+  if (!isProduction) {
+    config.addPassthroughCopy("src/assets/css");
+    config.addPassthroughCopy("src/assets/js");
+    config.addPassthroughCopy("src/assets/images");
+  }
 
   config.on('afterBuild', async () => {
-    const hash = new Date().getTime().toString();
-    await minifyCSS(hash);
-    await minifyJS(hash);
-    await updateImages('v1');
+    if (isProduction) {
+      const hash = new Date().getTime().toString();
+      await minifyCSS(hash);
+      await minifyJS(hash);
+      await updateImages('v1');
+    }
   });
 
   config.addCollection('sections', async (collection) => {
