@@ -10,7 +10,7 @@
     "watch:eleventy": "eleventy --serve",
     "build:eleventy": "eleventy",
     "start": "npm-run-all clean build:sass --parallel watch:*",
-    "build": "npm-run-all clean build:*"
+    "build": "NODE_ENV=production npm-run-all clean build:*"
   },
   "type": "module",
   "keywords": [],
