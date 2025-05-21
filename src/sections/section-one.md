@@ -6,7 +6,7 @@ type: section-one
     <div class="banner-container">
         <div class="banner-section">
             <div class="banner-column">
-                <a href="https://filhosderivia.com.br/" id="liga-pokemon">
+                <a href="https://filhosderivia.com.br/" id="liga-pokemon" target="_blank">
                     <div>Estamos também na</div>
                     <img src="assets/images/banner/liga_pokemon_logo.png" width="110%"/>
                 </a>
@@ -46,7 +46,7 @@ type: section-one
                     </div>
                     <div class="banner-link-loja-row">
                         <img class="pikachu-image" src="assets/images/banner/pikachu_escondido.png" />
-                        <a class="banner-link-loja" href="https://filhosderivia.com.br/">Conheça nossa loja virtual
+                        <a class="banner-link-loja" href="https://filhosderivia.com.br/" target="_blank">Conheça nossa loja virtual
                         </a>
                     </div>
                 </div>
